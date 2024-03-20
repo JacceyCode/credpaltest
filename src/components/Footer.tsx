@@ -1,8 +1,16 @@
-import { FaGooglePlay, FaApple } from "react-icons/fa6";
+import {
+  FaGooglePlay,
+  FaApple,
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <section className="flex items-start justify-between gap-10 bg-black p-10">
+    <section className="flex relative items-start justify-between gap-10 bg-black p-10 px-20">
       {/* 1st */}
       <section className="flex flex-col w-[20rem] gap-5">
         <h4>
@@ -15,20 +23,20 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center gap-5">
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
+          <div className="mt-10 py-2 px-4 w-40 bg-gradient-to-r from-amber-200 to-lime-300 rounded-sm text-black flex items-center gap-4">
             <FaGooglePlay size={24} />
 
             <div className="flex flex-col">
               <span className="text-xs">Downlaod on</span>
-              <span className="text-sm">Google Play</span>
+              <span className="text-sm font-medium">Google Play</span>
             </div>
           </div>
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
+          <div className="mt-10 px-4 py-2 w-40 bg-gradient-to-r from-amber-200 to-lime-300 rounded-sm text-black flex items-center gap-4">
             <FaApple size={24} />
 
             <div className="flex flex-col">
               <span className="text-xs">Downlaod on</span>
-              <span className="text-base">App Store</span>
+              <span className="text-base font-medium">App Store</span>
             </div>
           </div>
         </div>
@@ -55,6 +63,22 @@ const Footer = () => {
         <h4 className="text-white text-lg">Support</h4>
         <p className="text-sm text-white/60">FAQs</p>
         <p className="text-sm text-white/60">Blog</p>
+      </section>
+
+      {/* 5th */}
+      <section className="flex flex-col gap-5">
+        <h4 className="text-white text-lg">Connect with us</h4>
+        <div className="flex items-center gap-3 text-white/60">
+          <FaFacebook />
+          <FaTwitter />
+          <FaTwitter />
+          <FaInstagram />
+          <FaLinkedin />
+          <FaYoutube />
+        </div>
+
+        <h4 className="text-white mt-8 text-lg">Contact</h4>
+        <p className="text-sm text-white/60">hello@credpal.com</p>
       </section>
     </section>
   );
