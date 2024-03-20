@@ -23,7 +23,7 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center gap-5">
-          <div className="mt-10 py-2 px-4 w-40 bg-gradient-to-r from-amber-200 to-lime-300 rounded-sm text-black flex items-center gap-4">
+          <div className="mt-10 py-2 px-4 w-40 bg-gradient-to-r from-rose-300 via-amber-400 to-lime-500 rounded-sm text-black flex items-center gap-4">
             <FaGooglePlay size={24} />
 
             <div className="flex flex-col">
@@ -31,7 +31,7 @@ const Footer = () => {
               <span className="text-sm font-medium">Google Play</span>
             </div>
           </div>
-          <div className="mt-10 px-4 py-2 w-40 bg-gradient-to-r from-amber-200 to-lime-300 rounded-sm text-black flex items-center gap-4">
+          <div className="mt-10 px-4 py-2 w-40 bg-gradient-to-r from-rose-300 via-amber-400 to-lime-500 rounded-sm text-black flex items-center gap-4">
             <FaApple size={24} />
 
             <div className="flex flex-col">
