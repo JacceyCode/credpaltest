@@ -2,7 +2,7 @@ import { FaGooglePlay, FaApple } from "react-icons/fa6";
 
 const Download = () => {
   return (
-    <section className="bg-[#a0b8f4] py-10 px-20">
+    <section className="bg-[#F2F4FC] py-10 px-20">
       <section className="flex justify-between items-center">
         <article className="mt-12 w-[30rem]">
           <h1 className="text-5xl leading-20 font-extrabold">
