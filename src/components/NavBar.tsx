@@ -3,7 +3,7 @@ const NavBar = () => {
     <nav className="flex flex-row items-center justify-between p-8">
       <section className="flex gap-8 items-center">
         <p className="cursor-pointer">
-          <img src="../../public/credlogo.svg" alt="credpal logo" />
+          <img src="./credlogo.svg" alt="credpal logo" />
         </p>
         <p className="cursor-pointer">Personel</p>
         <p className="cursor-pointer">Retail</p>

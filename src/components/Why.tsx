@@ -9,19 +9,19 @@ const Why = () => {
 
       <section className="flex items-center justify-between mt-20 gap-40">
         <div className="flex flex-col items-center gap-10">
-          <img src="../../public/chart.png" alt="" />
+          <img src="./chart.png" alt="" />
           <span>18% Hight Interest Rate</span>
         </div>
         <div className="flex flex-col items-center gap-10">
-          <img src="../../public/bank.png" alt="" />
+          <img src="./bank.png" alt="" />
           <span>Regulated by CBN</span>
         </div>
         <div className="flex flex-col items-center gap-10">
-          <img src="../../public/check.png" alt="" />
+          <img src="./check.png" alt="" />
           <span>Insured by the NDIC</span>
         </div>
         <div className="flex flex-col items-center gap-10">
-          <img src="../../public/arrow.png" alt="" />
+          <img src="./arrow.png" alt="" />
           <span>Instant Withdrawal</span>
         </div>
       </section>

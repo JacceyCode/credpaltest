@@ -34,16 +34,8 @@ const Download = () => {
           </div>
         </article>
         <section className="flex items-center gap-3">
-          <img
-            className="w-[20rem] h-[50rem]"
-            src="../../public/mobile.png"
-            alt="Phone"
-          />
-          <img
-            className="w-[15rem] h-[20rem]"
-            src="../../public/card.png"
-            alt="Card"
-          />
+          <img className="w-[20rem] h-[40rem]" src="./mobile.png" alt="Phone" />
+          <img className="w-[15rem] h-[20rem]" src="./card.png" alt="Card" />
         </section>
       </section>
     </section>

@@ -12,7 +12,7 @@ const Hero = () => {
         </button>
       </article>
       <section>
-        <img src="../../public/mother.png" alt="Mother and Child Image" />
+        <img src="./mother.png" alt="Mother and Child Image" />
       </section>
     </section>
   );

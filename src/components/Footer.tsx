@@ -2,7 +2,7 @@ import { FaGooglePlay, FaApple } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <section className="flex items-center justify-between gap-10 bg-black p-10">
+    <section className="flex items-start justify-between gap-10 bg-black p-10">
       {/* 1st */}
       <section className="flex flex-col w-[20rem] gap-5">
         <h4>
@@ -35,96 +35,26 @@ const Footer = () => {
       </section>
 
       {/* 2nd */}
-      <section className="flex flex-col w-[20rem] gap-5">
-        <h4>
-          <img src="../../public/logo-white.png" alt="logo" />
-        </h4>
-        <p className="text-sm text-white/60">
-          CredPal is a revolutionary credit solution geared towards providing
-          seamless credit access for businesses and individuals across
-          developing economies.
-        </p>
-
-        <div className="flex items-center gap-5">
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
-            <FaGooglePlay size={24} />
-
-            <div className="flex flex-col">
-              <span className="text-xs">Downlaod on</span>
-              <span className="text-sm">Google Play</span>
-            </div>
-          </div>
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
-            <FaApple size={24} />
-
-            <div className="flex flex-col">
-              <span className="text-xs">Downlaod on</span>
-              <span className="text-base">App Store</span>
-            </div>
-          </div>
-        </div>
+      <section className="flex flex-col gap-5">
+        <h4 className="text-white text-lg">Products</h4>
+        <p className="text-sm text-white/60">Personal Credit Cards</p>
+        <p className="text-sm text-white/60">Business Credit Cards</p>
+        <p className="text-sm text-white/60">Expense Management</p>
       </section>
 
       {/* 3rd */}
-      <section className="flex flex-col w-[20rem] gap-5">
-        <h4>
-          <img src="../../public/logo-white.png" alt="logo" />
-        </h4>
-        <p className="text-sm text-white/60">
-          CredPal is a revolutionary credit solution geared towards providing
-          seamless credit access for businesses and individuals across
-          developing economies.
-        </p>
-
-        <div className="flex items-center gap-5">
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
-            <FaGooglePlay size={24} />
-
-            <div className="flex flex-col">
-              <span className="text-xs">Downlaod on</span>
-              <span className="text-sm">Google Play</span>
-            </div>
-          </div>
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
-            <FaApple size={24} />
-
-            <div className="flex flex-col">
-              <span className="text-xs">Downlaod on</span>
-              <span className="text-base">App Store</span>
-            </div>
-          </div>
-        </div>
+      <section className="flex flex-col gap-5">
+        <h4 className="text-white text-lg">Legal</h4>
+        <p className="text-sm text-white/60">Merchants terms of service</p>
+        <p className="text-sm text-white/60">Customer's terms of use</p>
+        <p className="text-sm text-white/60">Privacy policy</p>
       </section>
 
       {/* 4th */}
-      <section className="flex flex-col w-[20rem] gap-5">
-        <h4>
-          <img src="../../public/logo-white.png" alt="logo" />
-        </h4>
-        <p className="text-sm text-white/60">
-          CredPal is a revolutionary credit solution geared towards providing
-          seamless credit access for businesses and individuals across
-          developing economies.
-        </p>
-
-        <div className="flex items-center gap-5">
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
-            <FaGooglePlay size={24} />
-
-            <div className="flex flex-col">
-              <span className="text-xs">Downlaod on</span>
-              <span className="text-sm">Google Play</span>
-            </div>
-          </div>
-          <div className="mt-10 p-4 w-40 bg-black rounded-sm text-white flex items-center gap-4">
-            <FaApple size={24} />
-
-            <div className="flex flex-col">
-              <span className="text-xs">Downlaod on</span>
-              <span className="text-base">App Store</span>
-            </div>
-          </div>
-        </div>
+      <section className="flex flex-col gap-5">
+        <h4 className="text-white text-lg">Support</h4>
+        <p className="text-sm text-white/60">FAQs</p>
+        <p className="text-sm text-white/60">Blog</p>
       </section>
     </section>
   );
