@@ -14,7 +14,7 @@ const Footer = () => {
       {/* 1st */}
       <section className="flex flex-col w-[20rem] gap-5">
         <h4>
-          <img src="../../public/logo-white.png" alt="logo" />
+          <img src="./logo-white.png" alt="logo" />
         </h4>
         <p className="text-sm text-white/60">
           CredPal is a revolutionary credit solution geared towards providing
