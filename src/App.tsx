@@ -9,15 +9,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <section className="bg-gray-50">
-      <section className="pt-10 max-w-[80rem] mx-auto">
-        <NavBar />
-        <Hero />
-        <Why />
-        <Faq />
-        <OtherProducts />
-        <Download />
-        <Footer />
-      </section>
+      <NavBar />
+      <Hero />
+      <Why />
+      <Faq />
+      <OtherProducts />
+      <Download />
+      <Footer />
     </section>
   );
 }
